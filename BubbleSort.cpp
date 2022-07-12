@@ -15,7 +15,7 @@ void bubble(int a[], int n)
                 flag=1;
             }
         }
-        if(flag==0) { break;}  //if there is no swaping means that thearray is sorted
+        if(flag==0) { break;}  //if there is no swaping means that the array is sorted
     }
 }
 int main()
@@ -28,6 +28,5 @@ int main()
     {
         cout<<a[i]<<endl;
     }
-
     return 0;
 }

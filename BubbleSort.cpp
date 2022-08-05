@@ -15,9 +15,10 @@ void bubble(int a[], int n)
                 flag=1;
             }
         }
-        if(flag==0) { break;}  //if there is no swaping means that the array is sorted
+        if(flag==0) { break;}  //if there is no swaping - array is sorted
     }
 }
+
 int main()
 {
     int a[]={3,7,9,10,5,6,5};

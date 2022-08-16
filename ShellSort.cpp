@@ -18,6 +18,7 @@ void Print(T& vec, int n, string s){
 }
  
 // Code is similar to Insertion Sort with some modifications
+
 void ShellSort(int A[], int n){
     for (int gap=n/2; gap>=1; gap/=2){
         for (int j=gap; j<n; j++){

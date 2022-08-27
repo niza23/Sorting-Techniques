@@ -36,6 +36,7 @@ void Merge(int A[], int low, int mid, int high){
         A[i] = B[i];
     }
 }
+
  
 void IterativeMergeSort(int A[], int n){
     int p;
